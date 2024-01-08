@@ -1,0 +1,22 @@
+.note-form-container {
+    /* Style to create a visual separation from other content */
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+    /* Initially hidden */
+}
+
+.note-form-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.close-button {
+    /* Style the close button */
+}
+
+.note-form-footer {
+    /* Style the footer buttons */
+}
