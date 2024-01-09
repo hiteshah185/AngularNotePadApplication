@@ -8,6 +8,8 @@ import { HelloTeranetComponent } from './hello-teranet/hello-teranet.component';
 import { FirstChildComponent } from './first-child/first-child.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NotesComponent } from './notes/notes.component';
+import { FirstParentComponent } from './first-parent/first-parent.component';
+import { CommonModule } from '@angular/common';
 
 
 @NgModule({
@@ -15,14 +17,14 @@ import { NotesComponent } from './notes/notes.component';
     AppComponent,
     HelloWorldComponent,
     HelloTeranetComponent,
-    FirstChildComponent,
     NotesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CommonModule
 
   ],
   providers: [],

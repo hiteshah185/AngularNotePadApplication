@@ -1,0 +1,10 @@
+<h2>Component Life Cycle Hooks</h2>
+<button (click)="toggle()">Hide/Show Child</button>
+<input (change)="ParentChanges($event)" type="text" />
+<app-first-child *ngIf="displayChild" [message]="'Hello'"> </app-first-child>
+
+<input [(ngModel)]="random" type="text"> <br>
+{{random}}
+
+
+<!-- <p>Some Projective Content here....</p> -->
