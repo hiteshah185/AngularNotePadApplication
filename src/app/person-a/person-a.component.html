@@ -1,0 +1,9 @@
+<br />
+<p>Send a message here:</p>
+<input [(ngModel)]="defaultInput" type="text" /><br />
+<br />
+<button (click)="onSendButtonClicked()">Send via Service</button>
+<div *ngIf="isSend">
+  <h2>Message from Person A:</h2>
+  <p>{{ this.displayMessage }}</p>
+</div>

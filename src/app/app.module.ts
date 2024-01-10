@@ -10,6 +10,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NotesComponent } from './notes/notes.component';
 import { FirstParentComponent } from './first-parent/first-parent.component';
 import { CommonModule } from '@angular/common';
+import { PersonAComponent } from './person-a/person-a.component';
+import { PersonBComponent } from './person-b/person-b.component';
+import { DataSenderService } from './MyServices/data-sender.service';
 
 
 @NgModule({
@@ -17,7 +20,9 @@ import { CommonModule } from '@angular/common';
     AppComponent,
     HelloWorldComponent,
     HelloTeranetComponent,
-    NotesComponent
+    NotesComponent,
+    PersonAComponent,
+    PersonBComponent
   ],
   imports: [
     BrowserModule,
